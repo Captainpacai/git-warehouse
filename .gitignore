@@ -1,0 +1,32 @@
+# Secrets & local data
+.env
+sent_log.csv
+emails.txt
+companies.csv
+招聘汇总.csv
+招聘汇总.md
+无邮箱待电话跟进.md
+
+# Resumes
+assets/*.pdf
+!assets/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Personal notes (not part of the tool)
+大学生的发展问题-对话记录.md
+hello.py

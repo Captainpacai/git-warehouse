@@ -1,0 +1,3 @@
+# Example roster — copy to emails.txt and replace with real addresses
+hr@example.com
+jobs@example.org
