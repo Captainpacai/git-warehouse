@@ -58,6 +58,7 @@ description: >-
 | `mock [形式]` | 模拟面试（专业面默认按 PLC 配方） | `references/mock-cn.md` + 岗位预设 |
 | `prep [公司]` / `research [公司]` | 先归雇主类型再准备 | `references/prep-research-cn.md` + 岗位预设 |
 | `salary` / `negotiate` | 期望薪资与 offer 谈判 | `references/salary-negotiate-cn.md` + 岗位预设 §8 |
+| `ai` / `ai-mock` | AI 视频面试专项（牛客/企业自建平台） | `references/ai-interview-cn.md` + 岗位预设 |
 | `stories` | 故事库（用电气岗位标签） | `references/stories-cn.md` + 岗位预设 §7 |
 | `analyze` | 粘贴真实面试转写复盘 | 用五维 + 校招校准 |
 | `debrief` | 面试当天速记 | 记录轮次类型、题目、自我感觉 |
@@ -82,5 +83,7 @@ description: >-
 5. 真面试后 `debrief` / `analyze` → offer 阶段 `negotiate`  
 
 与仓库内 **campus-resume-mailer** 配合：mailer 负责投递触达；本 Skill 负责进面转化。
+
+AI 面试（牛客/企业自建平台）走 `ai` 命令，流程见 `references/ai-interview-cn.md`。
 
 改动范围说明见 `MINIMAL_CHANGES.md`。岗位细节见 `references/presets/plc-electrical-engineer.md`。
